@@ -1,6 +1,9 @@
 {
   "name": "atomicon",
   "version": "1.0.0",
+  "description": "An icon pack for your projects.",
+  "author": "digiworg",
+  "license": "ISC",
   "private": true,
   "dependencies": {
     "react": "^17.0.1",
@@ -12,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile": "rm -r dist && tsc --noEmit false && cp -r ./src/assets dist/"
+    "compile": "rm -r dist && tsc --noEmit false && cp -r ./src/assets dist/ && cp package.json dist/"
   },
   "eslintConfig": {
     "extends": [
