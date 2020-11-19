@@ -4,7 +4,6 @@
   "description": "An icon pack for your projects.",
   "author": "digiworg",
   "license": "ISC",
-  "private": true,
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
