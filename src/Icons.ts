@@ -1,34 +1,34 @@
 // Importing: Icons.
-import AdminDark from "./assets/icons/admin.dark.fluent_regular.24.icon.png";
-import AdminLight from "./assets/icons/admin.light.fluent_regular.24.icon.png";
-import ContactsDark from "./assets/icons/contacts.dark.fluent_regular.24.icon.png";
-import ContactsLight from "./assets/icons/contacts.light.fluent_regular.24.icon.png";
-import EditDark from "./assets/icon/edit.dark.fluent_regular.24.icon.png";
-import EditLight from "./assets/icon/edit.light.fluent_regular.24.icon.png";
-import EuroDark from "./assets/icons/euro.dark.fluent_regular.24.icon.png";
-import EuroLight from "./assets/icons/euro.light.fluent_regular.24.icon.png";
-import ExitDark from "./assets/icons/exit.dark.fluent_regular.24.icon.png";
-import ExitLight from "./assets/icons/exit.light.fluent_regular.24.icon.png";
-import ExportDark from "./assets/icons/export.dark.fluent_regular.24.icon.png";
-import ExportLight from "./assets/icons/export.light.fluent_regular.24.icon.png";
-import EyeDark from "./assets/icons/eye.dark.fluent_regular.24.icon.png";
-import EyeLight from "./assets/icons/eye.light.fluent_regular.24.icon.png";
-import GlassesDark from "./assets/icons/glasses.dark.fluent_regular.24.icon.png";
-import GlassesLight from "./assets/icons/glasses.light.fluent_regular.24.icon.png";
-import GroupDark from "./assets/icons/group.dark.fluent_regular.24.icon.png";
-import GroupLight from "./assets/icons/group.light.fluent_regular.24.icon.png";
-import HelpDark from "./assets/icons/help.dark.fluent_regular.24.icon.png";
-import HelpLight from "./assets/icons/help.light.fluent_regular.24.icon.png";
-import ImportDark from "./assets/icons/import.dark.fluent_regular.24.icon.png";
-import ImportLight from "./assets/icons/import.light.fluent_regular.24.icon.png";
-import InvisibleEyeDark from "./assets/icons/invisible_eye.dark.fluent_regular.24.icon.png";
-import InvisibleEyeLight from "./assets/icons/invisible_eye.light.fluent_regular.24.icon.png";
-import MenuDark from "./assets/icons/menu.dark.fluent_regular.24.icon.png";
-import MenuLight from "./assets/icons/menu.light.fluent_regular.24.icon.png";
+import AdminDark from "./assets/icons/admin.dark.fluent.regular.24.icon.png";
+import AdminLight from "./assets/icons/admin.light.fluent.regular.24.icon.png";
+import ContactsDark from "./assets/icons/contacts.dark.fluent.regular.24.icon.png";
+import ContactsLight from "./assets/icons/contacts.light.fluent.regular.24.icon.png";
+import EditDark from "./assets/icon/edit.dark.fluent.regular.24.icon.png";
+import EditLight from "./assets/icon/edit.light.fluent.regular.24.icon.png";
+import EuroDark from "./assets/icons/euro.dark.fluent.regular.24.icon.png";
+import EuroLight from "./assets/icons/euro.light.fluent.regular.24.icon.png";
+import ExitDark from "./assets/icons/exit.dark.fluent.regular.24.icon.png";
+import ExitLight from "./assets/icons/exit.light.fluent.regular.24.icon.png";
+import ExportDark from "./assets/icons/export.dark.fluent.regular.24.icon.png";
+import ExportLight from "./assets/icons/export.light.fluent.regular.24.icon.png";
+import EyeDark from "./assets/icons/eye.dark.fluent.regular.24.icon.png";
+import EyeLight from "./assets/icons/eye.light.fluent.regular.24.icon.png";
+import GlassesDark from "./assets/icons/glasses.dark.fluent.regular.24.icon.png";
+import GlassesLight from "./assets/icons/glasses.light.fluent.regular.24.icon.png";
+import GroupDark from "./assets/icons/group.dark.fluent.regular.24.icon.png";
+import GroupLight from "./assets/icons/group.light.fluent.regular.24.icon.png";
+import HelpDark from "./assets/icons/help.dark.fluent.regular.24.icon.png";
+import HelpLight from "./assets/icons/help.light.fluent.regular.24.icon.png";
+import ImportDark from "./assets/icons/import.dark.fluent.regular.24.icon.png";
+import ImportLight from "./assets/icons/import.light.fluent.regular.24.icon.png";
+import InvisibleEyeDark from "./assets/icons/invisible.eye.dark.fluent.regular.24.icon.png";
+import InvisibleEyeLight from "./assets/icons/invisible.eye.light.fluent.regular.24.icon.png";
+import MenuDark from "./assets/icons/menu.dark.fluent.regular.24.icon.png";
+import MenuLight from "./assets/icons/menu.light.fluent.regular.24.icon.png";
 
 // Declaring icons constant.
 const icons = {
-  fluent_regular: {
+  "fluent.regular": {
     dark: {
       admin: AdminDark,
       contacts: ContactsDark,
@@ -41,7 +41,7 @@ const icons = {
       group: GroupDark,
       help: HelpDark,
       import: ImportDark,
-      invisible_eye: InvisibleEyeDark,
+      invisibleEye: InvisibleEyeDark,
       menu: MenuDark,
     },
 
@@ -57,7 +57,7 @@ const icons = {
       group: GroupLight,
       help: HelpLight,
       import: ImportLight,
-      invisible_eye: InvisibleEyeLight,
+      invisibleEye: InvisibleEyeLight,
       menu: MenuLight,
     },
   },

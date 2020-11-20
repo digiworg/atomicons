@@ -1,6 +1,6 @@
 {
   "name": "atomicons",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An icon pack for your projects.",
   "author": "digiworg",
   "license": "ISC",
@@ -10,11 +10,14 @@
     "react-scripts": "4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "compile": "rm -r dist && tsc --noEmit false && cp -r ./src/assets dist/ && cp package.json dist/"
+    "compile": "yarn run compile:start.log && yarn run compile:remove && yarn run compile:start && yarn run compile:assets && yarn run compile:package && yarn run compile:clean && yarn run compile:end.log",
+    "compile:start.log": "echo 'Creating Atomicons distribution folder...'",
+    "compile:remove": "rm -r dist",
+    "compile:start": "tsc --noEmit false",
+    "compile:assets": "cp -r ./src/assets dist/",
+    "compile:package": "cp package.json dist/",
+    "compile:clean": "rm dist/Atomitypes.js",
+    "compile:end.log": "echo 'Atomicons distribution folder created successfully!'"
   },
   "eslintConfig": {
     "extends": [
