@@ -9,21 +9,27 @@ interface AtomiconProps {
 }
 
 // Declaring Atomicon Prop Type Type.
-type AtomiconPropType = "material";
+type AtomiconPropType = "fluent_regular";
 
 // Declaring Atomicon Prop Theme Type.
 type AtomiconPropTheme = "dark" | "light";
 
 // Declaring Atomicon Prop Icon Type.
 type AtomiconPropIcon =
+  | "admin"
+  | "contacts"
   | "edit"
+  | "euro"
+  | "exit"
+  | "export"
   | "eye"
+  | "glasses"
+  | "group"
+  | "help"
+  | "import"
   | "invisible_eye"
-  | "menu"
-  | "logout"
-  | "avatar_male";
-
-
+  | "menu";
+  
 // Declaring Atomicon Icon.
 export function Atomistring({ type, icon, theme }: AtomiconProps) {
   return icons[type][theme][icon]
